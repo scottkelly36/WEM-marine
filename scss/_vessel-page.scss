@@ -1,0 +1,62 @@
+
+
+
+    .vessel-container{
+        display: flex;
+        flex-direction: column;
+        padding: 100px 100px 0px 100px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .vessel-grid{
+        display: flex;
+        flex-direction: column;
+    }
+    .vessel-top-section{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .vessel-img{
+       width: 40%;
+
+    }
+    .vessel-description{
+        width: 45%;
+        margin-left: 50px;
+    }
+
+        th{
+            background-color: $primary-color;
+            color: $grey-color;
+            height: 50px;
+            text-align: left;
+            padding-left:30px;
+        }
+
+        tr:nth-child(odd){
+            background-color: $grey-color;
+        }
+
+        .bold{
+            font-weight: 400;
+            width:40%;
+        }
+        td{
+            padding-left: 30px;
+            height: 50px;
+        }
+        table{
+            width: 100%;
+            margin-top: 75px;
+            table-layout: auto;
+        }
+
+.vessel-contact{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
